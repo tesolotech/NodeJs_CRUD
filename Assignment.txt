@@ -1,0 +1,39 @@
+
+
+Creating an application to manage interaction between 3 collection and CRUD over the same.
+
+1. There will be 3 collection, Users, Business and Products.
+
+User { name, email, bio, profilePic }
+Business { name, email, registrationNo }
+Products { name, mrp, description, image[2] }
+
+So purpose is to see how good you are while managing multiple collections.
+You have to create following APIs
+
+1. Create User
+2. User can have multiple business
+3. User can post product as an individual or through his business
+
+C - create
+R - Read
+U - Update
+D - Delete
+
+Functionalities for different collection
+
+1. User - C, R
+2. Business - C, R
+3. Products - C, R, U, D
+
+All the fields mentioned above shall be there, apart from this do add all the fields you feel are important for referencing 3 collections
+
+Indexing is required for all three collections.
+
+Once done with the assignment - 
+
+1. Push code on Github
+2. If possible deploy code over Heroku or any free medium
+3. Postman documentation for all the APIs
+4. Proper documented code.
+
